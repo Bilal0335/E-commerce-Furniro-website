@@ -1,17 +1,17 @@
-// import FontShowcase from "@/components/Fonts";
 import Hero from "@/components/Hero";
-import Brands from "./brands/page";
 import HeroRange from "@/components/HeroRange";
 import ProductSection from "@/components/Products";
+import BeautifulRoom from "@/components/Beautifulroom";
+import FurniturePart from "@/components/FurniturePart";
 
 export default function Home() {
   return (
     <div>
       <Hero />
-      {/* <FontShowcase/> */}
       <HeroRange />
       <ProductSection />
-      <Brands />
+      <BeautifulRoom />
+      <FurniturePart />
     </div>
   );
 }
