@@ -22,12 +22,14 @@ export default function Header() {
     <header className="w-full fixed bg-white z-10 top-0 h-[60px] md:h-[90px] flex justify-around px-4 items-center max-w-screen-2xl mx-auto">
       {/* Logo Section */}
       <div className="flex items-center">
-        <Image
-          src="/image/logo.png"
-          alt="logo image"
-          width={200}
-          height={200}
-        />
+        <Link href={"/"} className="cursor-pointer">
+          <Image
+            src="/image/logo.png"
+            alt="logo image"
+            width={200}
+            height={200}
+          />
+        </Link>
       </div>
 
       {/* Navigation Bar */}
